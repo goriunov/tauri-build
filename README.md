@@ -1,6 +1,6 @@
-# tauri-build
+# tauri-build (fork)
 
-A composable action to build your Tauri project. (fork)
+A composable action to build your Tauri project.
 
 ## Usage
 
