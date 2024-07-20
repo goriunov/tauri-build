@@ -1,6 +1,6 @@
 # tauri-build
 
-A composable action to build your Tauri project.
+A composable action to build your Tauri project. (fork)
 
 ## Usage
 
@@ -8,6 +8,11 @@ As opposed to the offical [tauri-action](https://github.com/tauri-apps/tauri-act
 Instead of creating a GitHub release and uploading artifacts all-in-one, it provides outputs to conveniently compose together with other actions such as `actions/upload-artifact`, `actions/download-artifact` or `softprops/action-gh-release`.
 
 This action needs both Node.JS and Cargo to be already setup. 
+
+
+### Dev
+
+To successfully release new version, run `npm i -f` to install all the bindings from tauri for all platforms, then run `npm build` and `npm package` your dist folder is ready for release, all the bindings will be bundled in your dist as well (you can tag the release to make it version available)
 
 ### Minimal
 
